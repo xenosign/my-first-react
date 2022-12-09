@@ -2,7 +2,7 @@ import React, { Component } from "react";
 class ClassState extends Component {
   // 현재 버전
   state = {
-    message: 0,
+    message: "State 초기 값",
   };
   render() {
     const { message } = this.state;
