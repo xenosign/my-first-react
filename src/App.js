@@ -13,11 +13,13 @@ import ReactFragment from "./components/ReactFragment";
 import RefDOM from "./components/RefDOM";
 import TestRef from "./components/TestRef";
 import TestUseEffect from "./components/TestUseEffect";
+import Timer from "./components/Timer";
+import UseEffectFetch from "./components/UseEffectFetch";
 
 function App() {
   return (
     <div className="App">
-      <TestUseEffect />
+      <UseEffectFetch />
     </div>
   );
 }
