@@ -19,7 +19,7 @@ import UseEffectFetch from "./components/UseEffectFetch";
 function App() {
   return (
     <div className="App">
-      <UseEffectFetch />
+      <RandomQuiz />
     </div>
   );
 }
