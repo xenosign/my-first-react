@@ -15,11 +15,12 @@ import TestRef from "./components/TestRef";
 import TestUseEffect from "./components/TestUseEffect";
 import Timer from "./components/Timer";
 import UseEffectFetch from "./components/UseEffectFetch";
+import UsingUseMemo from "./components/UsingUseMemo";
 
 function App() {
   return (
     <div className="App">
-      <RandomQuiz />
+      <UsingUseMemo />
     </div>
   );
 }
