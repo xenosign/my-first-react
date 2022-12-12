@@ -11,7 +11,9 @@ import MainHeader from "./components/MainHeader";
 import RandomQuiz from "./components/RandomQuiz";
 import ReactFragment from "./components/ReactFragment";
 import RefDOM from "./components/RefDOM";
+import TestCss from "./components/TestCss";
 import TestRef from "./components/TestRef";
+import TestStyled from "./components/TestStyled";
 import TestUseEffect from "./components/TestUseEffect";
 import Timer from "./components/Timer";
 import UseEffectFetch from "./components/UseEffectFetch";
@@ -20,7 +22,7 @@ import UsingUseMemo from "./components/UsingUseMemo";
 function App() {
   return (
     <div className="App">
-      <UsingUseMemo />
+      <TestStyled />
     </div>
   );
 }
